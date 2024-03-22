@@ -15,7 +15,7 @@ class Form1(Form1Template):
         numbers = self.text_box_numbers.text
         algorithm = self.dropdown_algorithm.selected_value
         sorted_numbers = self.sort_numbers(numbers, algorithm)
-        self.label_sorted_numbers.text = ", ".join(map(str, sorted_numbers))
+        self.label_sorted_numbers.text = " ".join(map(str, sorted_numbers))
   def sort_numbers(self, numbers, algorithm):
         # Hàm sắp xếp dãy số nguyên dựa trên thuật toán được chọn
         if algorithm == "Insertion Sort":

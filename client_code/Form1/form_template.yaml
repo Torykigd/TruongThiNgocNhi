@@ -7,7 +7,24 @@ components:
   properties: {col_widths: '{}'}
   name: content_panel
   layout_properties: {slot: default}
-  components: []
+  components:
+  - name: text_box_numbers
+    properties: {text: Nhap so nguyen n}
+    type: TextBox
+    layout_properties: {grid_position: 'QMUQLW,ANFUET'}
+  - name: dropdown_algorithm
+    properties: {}
+    type: DropDown
+    layout_properties: {grid_position: 'QYMRYF,IIUPRB'}
+  - name: sort_button
+    properties: {text: Sắp xếp}
+    type: Button
+    layout_properties: {grid_position: 'IFBRVE,ASVRKC'}
+    event_bindings: {click: sort_button_click}
+  - name: label_sorted_numbers
+    properties: {}
+    type: Label
+    layout_properties: {grid_position: 'AFFCGV,SIXMOM'}
 - type: FlowPanel
   properties: {}
   name: navbar_links

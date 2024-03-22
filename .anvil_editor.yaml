@@ -2,8 +2,7 @@ unique_ids:
   forms:
     Form1: Y2DCHHU2TFFZUX5MCLESLTSG3PPVIX5J
   modules: {}
-  server_modules:
-    BAI3: '1711073152008644917352117.8864'
+  server_modules: {}
   assets:
     standard-page.html: 3RZ6QDE5ABGTMWIRPNTLW2WBF2NDSLUI
     theme.css: MAEIW47T2WREZTCQMSHTQO37XBSWSCZG
